@@ -1,3 +1,5 @@
+package setterimpl;
+
 public class MongoDBConfig {
     private final String username;
     private final String password;
@@ -53,7 +55,7 @@ public class MongoDBConfig {
 
     @Override
     public String toString() {
-        return "MongoDBConfig{" +
+        return "setterimplementation.MongoDBConfig{" +
                 "dbName='" + dbName + '\'' +
                 ", collectionName='" + collectionName + '\'' +
                 '}';
